@@ -44,7 +44,7 @@ export function GenreTray() {
   return (
     <div className="overflow-hidden w-[99vw] mb-24" ref={component}>
       <header>
-        <h1 className="text-4xl font-bold mb-5 leading tracking-tighter sm:text-6xl ">
+        <h1 className="text-3xl font-bold mb-5 leading tracking-tighter md:text-2xl lg:text-6xl ">
           <span className="text-violet-400">Explore</span> amongst Thousands of{" "}
           <span className="">Genres:</span>
         </h1>
@@ -57,7 +57,7 @@ export function GenreTray() {
           {[...Array(15)].map((_, i) => (
             <React.Fragment key={i}>
               <h1
-                className="text-7xl font-extrabold uppercase tracking-tighter"
+                className=" text-3xl md:text-5xl lg:text-7xl font-extrabold uppercase tracking-tighter"
                 style={{
                   color: i === 7 ? "yellow" : "",
                   opacity: i === 7 ? "1" : "0.45",
@@ -66,7 +66,7 @@ export function GenreTray() {
                 {" "}
                 {element}
               </h1>
-              <span className="text-3xl opacity-45">
+              <span className="text-xl md:text-2xl lg:text-3xl opacity-45">
                 <MdCircle />
               </span>
             </React.Fragment>

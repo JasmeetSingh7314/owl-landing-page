@@ -2,7 +2,7 @@ import { CarouselPlugin } from "../common/Carousel";
 
 export default function Carousel() {
   return (
-    <section className=" carousel-temp container mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-24">
+    <section className="carousel-temp  container mx-auto px-4 sm:px-6 lg:px-24  py-12 lg:py-24">
       <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
         <div className="w-full lg:w-1/2 max-w-2xl mx-auto lg:mx-0">
           <CarouselPlugin />

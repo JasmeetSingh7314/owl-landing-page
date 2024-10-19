@@ -1,3 +1,5 @@
+import { Button } from "@nextui-org/react";
+
 export function CTA() {
   return (
     <section className="py-10 mt-20 mb-20">
@@ -20,6 +22,13 @@ export function CTA() {
             <div className="flex w-full max-w-sm items-center justify-center space-x-2"></div>
           </div>
         </form>
+        <Button
+          variant="solid"
+          className="p-2 h-fit font-extrabold font-jura text-neutral-900 text-lg  bg-stone-400 "
+        >
+          <p className="font-extrabold text-xl">Whitepaper</p>
+          <p className="text-xs italic font-extrabold">coming soon...</p>
+        </Button>
         <div className="mt-8 flex items-center justify-center px-8 sm:px-0">
           <span className="ml-2 text-sm text-white font-inter">
             Begin your{" "}
