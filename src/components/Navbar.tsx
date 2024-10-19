@@ -28,14 +28,14 @@ export function NavbarComp() {
 
   return (
     <NavigationMenu
-      className=" flex justify-between  items-center  mb-16  px-12 py-4"
+      className=" flex justify-between w-fit  items-center  mb-16  px-1 sm:px-4 lg:px-12   py-4"
       style={{ width: "100%" }}
     >
       <NavigationMenuList>
-        <div className="inline-flex items-center space-x-2">
+        <div className=" items-center space-x-2">
           <Link to="/">
             <span>
-              <img width={40} height={40} src={owl} alt="owl_logo" />
+              <img width={50} height={50} src={owl} alt="owl_logo" />
             </span>
           </Link>
         </div>
@@ -51,14 +51,14 @@ export function NavbarComp() {
         )}
       </NavigationMenuList>
       <NavigationMenuList>
-        <div className="flex ">
+        <div className="flex w-full justify-between ">
           {sessionStorage.getItem("publicKey") === null ? (
             <div className="flex ml-12">
               <Button
                 variant="solid"
-                className="p-2 flex  h-fit w-[200px] md:w-fit font-extrabold font-jura text-lg text-white bg-neutral-800 hover:shadow-md hover: shadow-white "
+                className="p-2 flex  h-fit w-50 md:w-fit font-extrabold font-jura text-lg text-white bg-neutral-800 hover:shadow-md hover: shadow-white "
               >
-                <p className="font-extrabold text-sm md:text-xl">
+                <p className="font-extrabold text-xs md:text-xl">
                   Download App
                 </p>
                 <p className="text-xs italic font-extralight">coming soon...</p>
