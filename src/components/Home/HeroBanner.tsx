@@ -55,7 +55,7 @@ export default function HeroBanner() {
               <Link rel="noopener noreferrer" to={""}>
                 <Button
                   variant="solid"
-                  className="p-2 h-fit font-extrabold font-jura text-neutral-900 text-lg  bg-violet-400 "
+                  className="p-2 h-fit my-4 font-extrabold font-jura text-neutral-900 text-lg  bg-stone-400"
                 >
                   <p className="font-extrabold text-xl">Whitepaper</p>
                   <p className="text-xs italic font-extrabold">
