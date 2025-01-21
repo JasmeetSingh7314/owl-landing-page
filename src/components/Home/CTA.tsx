@@ -1,4 +1,3 @@
-import { Button } from "@nextui-org/react";
 import { Link } from "react-router-dom";
 import Diamante_logo from "../../assets/diamlogo.png";
 export function CTA() {
