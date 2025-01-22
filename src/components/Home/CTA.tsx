@@ -15,7 +15,7 @@ export function CTA() {
           <span className="text-violet-400 text-2xl font-bold uppercase tracking-wider font-jura ">
             Supported by:
           </span>
-          <Link to="/">
+          <Link to="https://www.diamante.io/">
             <span>
               <img
                 width={200}
