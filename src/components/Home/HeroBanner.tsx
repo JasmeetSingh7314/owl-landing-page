@@ -57,10 +57,14 @@ export default function HeroBanner() {
                   variant="solid"
                   className="p-2 h-fit my-4 font-extrabold font-jura text-neutral-900 text-lg  bg-stone-400"
                 >
-                  <p className="font-extrabold text-xl">Whitepaper</p>
-                  <p className="text-xs italic font-extrabold">
-                    coming soon...
-                  </p>
+                  <Link
+                    to="/docs/OWL_whitepaper_draft.pdf"
+                    target="_blank"
+                    download
+                    className="px-2"
+                  >
+                    <p className="font-extrabold text-xl">Whitepaper</p>
+                  </Link>
                 </Button>
               </Link>
             </div>

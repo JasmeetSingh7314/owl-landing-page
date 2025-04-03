@@ -28,7 +28,7 @@ export function NavbarComp() {
 
   return (
     <NavigationMenu
-      className=" flex justify-between w-fit  items-center  mb-16  px-1 sm:px-4 lg:px-12   py-4"
+      className=" flex justify-between w-fit  items-center  mb-16  px-1 sm:px-4 lg:px-32   py-4"
       style={{ width: "100%" }}
     >
       <NavigationMenuList>
